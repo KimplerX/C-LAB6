@@ -5,9 +5,9 @@ class Program
     static void Main()
     {
         Console.WriteLine("=== 1. Перевірка конструкторів ===");
-        TPTriangle t1 = new TPTriangle(); // Без параметрів
-        TPTriangle t2 = new TPTriangle(3, 4); // З параметрами
-        TPTriangle t3 = new TPTriangle(t2); // Копіювання (t3 буде копією t2)
+        TPTriangle t1 = new TPTriangle(); 
+        TPTriangle t2 = new TPTriangle(3, 4); 
+        TPTriangle t3 = new TPTriangle(t2); 
 
         t1.Print();
         t2.Print();
